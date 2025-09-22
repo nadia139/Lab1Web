@@ -10,9 +10,9 @@ _parent ), apa yang terjadi pada masing-masing nilai antribut tersebut?
 
 #JAWABAN
 
-1. HTML biasa: salah tag (misal <dvi>) → browser anggap teks biasa, tampil tapi berantakan, tidak ada error di console.
-XHTML / XML: salah tag → fatal error, file gagal ditampilkan.
-Framework (React/Vue/Angular): salah tag → error di console (misal component not defined), aplikasi bisa tidak jalan.
+1. Kalau kita ngubah kode HTML sesuai keinginan (misalnya nambah teks, gambar, atau link), hasilnya langsung kelihatan di tampilan web. Tapi kalau kita salah nulis tag, misalnya <p> jadi <pp> atau lupa nutup tag dengan benar, biasanya nggak muncul pesan error kayak di bahasa pemrograman lain
+Yang terjadi tuh lebih ke tampilan yang jadi aneh: teks bisa nempel, gambar nggak muncul, atau susunan halaman jadi berantakan. Browser sebenarnya masih berusaha “memperbaiki” kesalahan itu, tapi hasilnya sering nggak sesuai yang kita mau.
+Jadi intinya: ada error dalam arti tampilan jadi kacau, bukan error yang bikin kode nggak jalan sama sekali.
 
 2. <p> (paragraph):
 Ini dipakai buat bikin paragraf baru. Secara default ada jarak atas-bawah otomatis. Jadi cocok buat bikin teks yang rapi dan terstruktur.
