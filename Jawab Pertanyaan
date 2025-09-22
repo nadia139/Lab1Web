@@ -1,4 +1,4 @@
-#SOAL# 
+#SOAL 
 1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah
 error ketika terjadi kesalahan penulisan tag?
 2. Apa perbedaan dari tag <p> dengan tag <br>, berikan penjelasannya!
@@ -8,3 +8,55 @@ proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan pe
 5. Pada link tambahkan atribut target dengan nilai atribut bervariasi ( _blank, _self, _top,
 _parent ), apa yang terjadi pada masing-masing nilai antribut tersebut?
 
+#JAWABAN
+
+1. HTML biasa: salah tag (misal <dvi>) → browser anggap teks biasa, tampil tapi berantakan, tidak ada error di console.
+XHTML / XML: salah tag → fatal error, file gagal ditampilkan.
+Framework (React/Vue/Angular): salah tag → error di console (misal component not defined), aplikasi bisa tidak jalan.
+
+2. <p> (paragraph):
+Ini dipakai buat bikin paragraf baru. Secara default ada jarak atas-bawah otomatis. Jadi cocok buat bikin teks yang rapi dan terstruktur.
+- <br> (line break):
+Ini cuma buat pindah baris tanpa bikin jarak kayak paragraf. Cocok kalau lagi nulis alamat, puisi, atau teks yang butuh baris turun tapi tetap dalam satu paragraf.
+Bedanya : 
+<p> = bikin blok teks baru, ada jarak bawaan.
+<br> = cuma turun 1 baris, masih dalam blok yang sama.
+
+3. alt (alternative text):
+Dipakai buat teks pengganti kalau gambar gagal dimuat atau buat aksesibilitas (screen reader). Jadi fungsi utamanya: kasih informasi isi gambar.
+title:
+Dipakai buat kasih tooltip (teks muncul pas kursor dihover). Ini lebih ke informasi tambahan, bukan pengganti gambar.
+
+Bedanya:
+alt = fokus ke aksesibilitas & fallback (wajib kalau mau website ramah pengguna).
+title = fokus ke informasi tambahan saat hover.
+
+Ibaratnya:
+alt itu caption penting biar ngerti maksud gambar,
+title itu catatan kecil biar lebih jelas tapi opsional.
+
+4. Tidak harus di isi dua-duanya
+karena :
+- Kalau width & height diisi semua, gambar memang ukurannya fix. Tapi kalau nilainya nggak sesuai rasio asli, gambar bisa jadi ketarik/ketekan (kelihatan gepeng atau lonjong).
+- Kalau cuma isi salah satu (misal width aja), browser otomatis ngatur height biar proporsional sesuai rasio asli gambar. Jadi tampilannya tetap natural.
+
+Kesimpulannya :
+- Biar gambar tetap proporsional, cukup isi salah satu atribut aja (biasanya width).
+- Kalau mau lebih fleksibel (responsive), biasanya dipakai CSS kayak max-width: 100%; height: auto;
+
+5. 1. _blank
+Link dibuka di tab/jendela baru.
+Cocok buat link eksternal biar halaman utama nggak ketutup.
+2. _self (default)
+Link dibuka di tab yang sama (halaman lama ketimpa)
+3. _top
+Link dibuka di jendela penuh (paling atas), biasanya dipakai kalau halaman pakai frames/iframe.
+Jadi iframe bakal ditutup, langsung tampil full page.
+4. _parent
+Link dibuka di frame induk dari frame saat ini. Kalau nggak ada parent (nggak pakai frame), efeknya sama kayak _self.
+
+Kesimpulannya :
+_blank = buka tab baru.
+_self = buka di tab yang sama.
+_top = buka di full window, keluar dari semua frame.
+_parent = buka di frame induk.
