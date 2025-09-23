@@ -1,6 +1,16 @@
 <img width="1326" height="834" alt="Image" src="https://github.com/user-attachments/assets/2e91cb2b-dc22-4f31-8864-efa750d425dd" />
 
 
+
+
+
+<img width="1252" height="445" alt="Screenshot 2025-09-22 135423" src="https://github.com/user-attachments/assets/9d3b186d-c845-4305-a73d-893783b45074" />
+
+
+
+
+
+
 lagkah pertama membuat struktu dasar 
 Di awal kita bikin file lab1_tag_dasar.html.
 Bagian <head> diisi dengan:
