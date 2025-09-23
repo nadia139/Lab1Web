@@ -16,14 +16,14 @@ lab1_halaman2.html ➝ link ke halaman kedua.
 http://www.google.com ➝ link ke website eksternal Google.
 
 Langkah ketiga Membuat Heading dan Paragraf Dasar
-<h1> dipakai buat judul besar: Belajar Dasar HTML.
+dipakai buat judul besar: Belajar Dasar HTML.
 Lalu ada beberapa <p> buat identitas mahasiswa (Nama, NIM, Kelas).
 Paragraf berikutnya dikasih atribut align="center" ➝ teks ditaruh di tengah.
 Ada juga align="right" ➝ teks paragraf rata kanan.
 Ini latihan pakai heading & paragraf dengan variasi posisi teks.
 
 Langkah keempat Menambahkan Subjudul dan Paragraf
-Pakai <h2> ➝ judul lebih kecil: Paragraf pada HTML.
+Pakai ➝ judul lebih kecil: Paragraf pada HTML.
 Bikin paragraf isi tentang penjelasan HTML dasar.
 Tambah lagi <p> lain buat kalimat singkat “ini adalah tugas praktikum”.
 Di sini kita coba bikin struktur tulisan yang rapi.
