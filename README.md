@@ -13,7 +13,6 @@ Di dalam <body>, kita bikin <nav> yang isinya link dengan tag <a>.
 Ada 3 link:
 lab1_tag_dasar.html ➝ link ke halaman ini sendiri.
 lab1_halaman2.html ➝ link ke halaman kedua.
-http://www.google.com ➝ link ke website eksternal Google.
 
 Langkah ketiga Membuat Heading dan Paragraf Dasar
 dipakai buat judul besar: Belajar Dasar HTML.
