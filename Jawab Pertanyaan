@@ -1,4 +1,4 @@
-#SOAL 
+*SOAL* 
 1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah
 error ketika terjadi kesalahan penulisan tag?
 2. Apa perbedaan dari tag <p> dengan tag <br>, berikan penjelasannya!
@@ -8,7 +8,7 @@ proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan pe
 5. Pada link tambahkan atribut target dengan nilai atribut bervariasi ( _blank, _self, _top,
 _parent ), apa yang terjadi pada masing-masing nilai antribut tersebut?
 
-#JAWABAN
+# JAWABAN
 
 1. Kalau kita ngubah kode HTML sesuai keinginan (misalnya nambah teks, gambar, atau link), hasilnya langsung kelihatan di tampilan web. Tapi kalau kita salah nulis tag, misalnya <p> jadi <pp> atau lupa nutup tag dengan benar, biasanya nggak muncul pesan error kayak di bahasa pemrograman lain
 Yang terjadi tuh lebih ke tampilan yang jadi aneh: teks bisa nempel, gambar nggak muncul, atau susunan halaman jadi berantakan. Browser sebenarnya masih berusaha “memperbaiki” kesalahan itu, tapi hasilnya sering nggak sesuai yang kita mau.
