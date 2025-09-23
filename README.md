@@ -1,4 +1,6 @@
 <img width="1326" height="834" alt="Image" src="https://github.com/user-attachments/assets/2e91cb2b-dc22-4f31-8864-efa750d425dd" />
+
+
 lagkah pertama membuat struktu dasar 
 Di awal kita bikin file lab1_tag_dasar.html.
 Bagian <head> diisi dengan:
@@ -34,4 +36,8 @@ Contoh:
 Gambar pertama tampil sesuai ukuran asli.
 Gambar kedua diperkecil dengan atribut width="200" biar lebih proporsional.
 Hasil akhirnya, logo kampus muncul di halaman web.
+
+
+
+<img width="1901" height="875" alt="Screenshot 2025-09-22 135446" src="https://github.com/user-attachments/assets/7b88cf1a-ff4a-4bbd-a307-4e1f70dbfe56" />
 
